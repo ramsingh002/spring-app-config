@@ -11,3 +11,11 @@ okta:
   oauth2:
     issuer: https://dev-32602952.okta.com/oauth2/default
     audience: api://default
+spring:
+  zipkin:
+    baseUrl: http://localhost:9411
+  security:
+  oauth2:
+    resourceserver:
+      jwt:
+        issuer-uri: https://dev-g60ix1gqqd1gdvdg.us.auth0.com/
